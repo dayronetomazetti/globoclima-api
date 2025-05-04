@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      dotnet: 8
+    commands:
+      - echo "Instalando Amazon Lambda Tools..."
+      - dotnet tool install -g Amazon.Lambda.Tools
+  build:
+    commands:
+      - echo "Restaurando pacotes..."
+      - dotnet restore
+      - echo "Compilando projeto..."
+      - dotnet build --configuration Release
+      - echo "Publicando aplicação..."
+      - dotnet lambda deploy-function GloboClimaApi --region us-east-1

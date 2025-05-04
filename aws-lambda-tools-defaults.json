@@ -1,0 +1,15 @@
+{
+  "profile": "default",
+  "region": "us-east-1",
+  "configuration": "Release",
+  "framework": "net8.0",
+  "function-runtime": "dotnet8",
+  "function-memory-size": 512,
+  "function-timeout": 30,
+  "function-handler": "GloboClima.Api::GloboClima.Api.LambdaEntryPoint::FunctionHandlerAsync",
+  "function-name": "GloboClimaApi",
+  "function-role": "arn:aws:iam::868948464643:role/GloboClimaLambdaRole",
+  "package-type": "Zip"
+}
+
+
