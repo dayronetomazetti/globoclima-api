@@ -3,11 +3,27 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      dotnet: 8
+      dotnet: 8.0
     commands:
+      - echo "Instalando dependências..."
       - dotnet tool install -g Amazon.Lambda.Tools
+      - export PATH="$PATH:/root/.dotnet/tools"
+
+  pre_build:
+    commands:
+      - echo "Restaurando pacotes..."
+      - dotnet restore
+
   build:
     commands:
-      - dotnet restore
-      - dotnet build --configuration Release
-      - dotnet lambda deploy-function GloboClimaApi --region us-east-1
+      - echo "Publicando aplicação..."
+      - dotnet lambda package GloboClimaApi.zip --project-location GloboClima.Api --configuration Release --framework net8.0
+
+  post_build:
+    commands:
+      - echo "Fazendo deploy no Lambda..."
+      - aws lambda update-function-code --function-name GloboClima-Api --zip-file fileb://GloboClimaApi.zip --region sa-east-1
+
+artifacts:
+  files:
+    - GloboClimaApi.zip
