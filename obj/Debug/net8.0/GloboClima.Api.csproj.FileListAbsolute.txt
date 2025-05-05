@@ -1,4 +1,8 @@
 C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\bin\Debug\net8.0\appsettings.json
+C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\bin\Debug\net8.0\publish\appsettings.json
+C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\bin\Debug\net8.0\publish\GloboClima.Api.deps.json
+C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\bin\Debug\net8.0\publish\GloboClima.Api.runtimeconfig.json
+C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\bin\Debug\net8.0\publish\swagger.json
 C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\bin\Debug\net8.0\swagger.json
 C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\bin\Debug\net8.0\GloboClima.Api.exe
 C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\bin\Debug\net8.0\GloboClima.Api.deps.json
@@ -33,6 +37,7 @@ C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\obj\Debug\net8.0\GloboC
 C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\obj\Debug\net8.0\GloboClima.Api.csproj.CoreCompileInputs.cache
 C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\obj\Debug\net8.0\GloboClima.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\obj\Debug\net8.0\GloboClima.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\obj\Debug\net8.0\GloboClima.Api.sourcelink.json
 C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\obj\Debug\net8.0\staticwebassets\msbuild.GloboClima.Api.Microsoft.AspNetCore.StaticWebAssets.props
@@ -47,4 +52,3 @@ C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\obj\Debug\net8.0\refint
 C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\obj\Debug\net8.0\GloboClima.Api.pdb
 C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\obj\Debug\net8.0\GloboClima.Api.genruntimeconfig.cache
 C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\obj\Debug\net8.0\ref\GloboClima.Api.dll
-C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\obj\Debug\net8.0\GloboClima.Api.sourcelink.json

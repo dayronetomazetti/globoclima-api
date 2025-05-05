@@ -12,6 +12,16 @@ namespace GloboClima.Api
     {
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder =>
+                {
+                    builder.AllowAnyOrigin()
+                           .AllowAnyMethod()
+                           .AllowAnyHeader();
+                });
+            });
+
             services.AddAuthentication("Bearer")
                 .AddJwtBearer("Bearer", options =>
                 {
@@ -48,6 +58,9 @@ namespace GloboClima.Api
             app.UseSwaggerUI();
 
             app.UseRouting();
+
+            app.UseCors();
+
             app.UseAuthentication();
             app.UseAuthorization();
 
