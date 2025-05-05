@@ -5,14 +5,14 @@ phases:
     runtime-versions:
       dotnet: 8.0
     commands:
-      - echo "Instalando dependências..."
+      - echo "Instalando ferramentas da AWS Lambda..."
       - dotnet tool install -g Amazon.Lambda.Tools
       - export PATH="$PATH:/root/.dotnet/tools"
 
   pre_build:
     commands:
       - echo "Restaurando pacotes..."
-      - dotnet restore
+      - dotnet restore GloboClima.Api
 
   build:
     commands:
@@ -21,7 +21,7 @@ phases:
 
   post_build:
     commands:
-      - echo "Fazendo deploy no Lambda..."
+      - echo "Enviando para o Lambda..."
       - aws lambda update-function-code --function-name GloboClima-Api --zip-file fileb://GloboClimaApi.zip --region sa-east-1
 
 artifacts:
