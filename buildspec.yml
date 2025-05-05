@@ -12,12 +12,12 @@ phases:
   pre_build:
     commands:
       - echo "Restaurando pacotes..."
-      - dotnet restore GloboClima.Api
+      - dotnet restore
 
   build:
     commands:
       - echo "Publicando aplicação..."
-      - dotnet lambda package GloboClimaApi.zip --project-location GloboClima.Api --configuration Release --framework net8.0
+      - dotnet lambda package GloboClimaApi.zip --configuration Release --framework net8.0
 
   post_build:
     commands:
