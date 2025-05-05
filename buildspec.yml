@@ -21,7 +21,7 @@ phases:
 
   post_build:
     commands:
-      - echo "Enviando para o Lambda..."
+      - echo "Atualizando código no Lambda..."
       - aws lambda update-function-code --function-name GloboClima-Api --zip-file fileb://GloboClimaApi.zip --region sa-east-1
 
 artifacts:
