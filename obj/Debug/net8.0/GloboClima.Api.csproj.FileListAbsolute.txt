@@ -47,3 +47,4 @@ C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\obj\Debug\net8.0\refint
 C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\obj\Debug\net8.0\GloboClima.Api.pdb
 C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\obj\Debug\net8.0\GloboClima.Api.genruntimeconfig.cache
 C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\obj\Debug\net8.0\ref\GloboClima.Api.dll
+C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\obj\Debug\net8.0\GloboClima.Api.sourcelink.json

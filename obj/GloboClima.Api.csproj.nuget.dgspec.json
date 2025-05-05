@@ -67,10 +67,6 @@
               "target": "Package",
               "version": "[2.4.4, )"
             },
-            "Amazon.Lambda.Tools": {
-              "target": "Package",
-              "version": "[10.0.1, )"
-            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.0, )"

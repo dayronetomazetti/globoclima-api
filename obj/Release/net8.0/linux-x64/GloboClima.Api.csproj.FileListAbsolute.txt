@@ -416,3 +416,4 @@ C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\bin\Release\net8.0\linu
 C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\bin\Release\net8.0\linux-x64\libmscordaccore.so
 C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\bin\Release\net8.0\linux-x64\libmscordbi.so
 C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\bin\Release\net8.0\linux-x64\swagger.json
+C:\Users\Pc\source\repos\GloboClimaBlazor\GloboClima.Api\obj\Release\net8.0\linux-x64\GloboClima.Api.sourcelink.json

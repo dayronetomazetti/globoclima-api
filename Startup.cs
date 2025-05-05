@@ -23,7 +23,7 @@ namespace GloboClima.Api
             services.AddAuthorization();
             var awsOptions = new AWSOptions
             {
-                Region = RegionEndpoint.EUNorth1 
+                Region = RegionEndpoint.EUNorth1
             };
             services.AddDefaultAWSOptions(awsOptions);
             services.AddAWSService<IAmazonDynamoDB>();
